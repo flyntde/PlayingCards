@@ -27,8 +27,9 @@ public final class ArrayShuffle <T> {
 	 */
 	// Knuth Shuffle Algorithm
 	public void shuffle(T[] arr) {
-		for (int i = arr.length; i > 1; i--)
-            swap(arr, i - 1, rand.nextInt(i));
+		for (int i = arr.length; i > 1; i--) {
+			swap(arr, i - 1, rand.nextInt(i));
+		}
 	}
 	
 	private void swap(T[] arr, int i, int j) {
