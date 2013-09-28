@@ -78,7 +78,7 @@ public final class Card {
 
 	/**
      * Constructs a newly allocated {@code Card} object that represents 
-     * the specified {@code Rank} and @{code Suit} of this card.
+     * the specified {@code Rank} and {@code Suit} of this card.
 	 * @param rank the {@code Card.Rank} of this card
 	 * @param suit the {@code Card.Suit} of this card
 	 */
@@ -89,7 +89,7 @@ public final class Card {
 	
 	/**
 	 * Returns the string representation of this card, identifying the 
-	 * {@code Rank} and @{code Suit}
+	 * {@code Rank} and {@code Suit}
 	 * 
 	 * @return the string identification of this card
 	 */
